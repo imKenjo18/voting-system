@@ -1,0 +1,63 @@
+html {
+  background: url("../images/index.jpg");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#login-container {
+  /* background: #f48475; */
+  background: rgba(244, 133, 118, 0.85);
+  border: 1px solid black;
+  border-radius: 25px;
+  min-height: 200px;
+  height: 350px;
+  min-width: 300px;
+  width: 500px;
+  margin: auto;
+  margin-top: 12%;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+form {
+  display: grid;
+}
+
+form > * {
+  margin: auto;
+}
+
+.form-item {
+  margin-bottom: 1.5%;
+}
+
+input {
+  width: 250px;
+  height: 2rem;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.toggle-password-view {
+  float: right;
+  margin-left: -30px;
+  margin-top: 6.5px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: none;
+}
+
+button {
+  width: 25%;
+  margin-top: 3%;
+}

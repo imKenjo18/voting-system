@@ -1,0 +1,49 @@
+main {
+  margin-top: 15px;
+}
+
+/* FORMS */
+
+#edit-container {
+  height: 475px;
+  min-width: 300px;
+  width: 500px;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(244, 133, 118, 0.85);
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: grid;
+}
+
+form > *,
+.form-item > input {
+  margin: auto;
+}
+
+form button {
+  width: 35%;
+}
+
+.form-item {
+  display: grid;
+  margin-bottom: 1.5%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+label {
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: gray;
+  background: url("../images/home.jpg");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+header {
+  height: 2.5rem;
+  background: rgba(247, 122, 43, 0.5);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  padding-top: 6px;
+  padding-inline: 10px;
+}
+
+input,
+button,
+select {
+  border: 1px solid black;
+}
+
+input {
+  width: 250px;
+  height: 2rem;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 1.75rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+button:active {
+  background: #ccc;
+}
+
+.logout-button {
+  float: right;
+  background: rgb(228, 64, 64);
+  color: white;
+  width: 70px;
+  border: 1px solid black;
+}
+
+.logout-button:hover {
+  background: rgb(199, 58, 58);
+}
+
+.logout-button:active {
+  background: rgb(170, 52, 52);
+}
